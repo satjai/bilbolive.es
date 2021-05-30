@@ -15,7 +15,7 @@
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="./script.js"></script>
-	
+	 <link href="style.css" rel="stylesheet" />
 </head>
  <body>
  <ul id="menutop">
