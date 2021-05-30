@@ -1,2 +1,2 @@
-# bilbolive.es
+# bilbolive.es linux
 pruebas php,pdo,ajax,json
