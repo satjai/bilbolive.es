@@ -14,8 +14,9 @@ echo '<hr> y con json_encode(array_de_objetos) puedo recorrerlo con javascript (
   
   
   
-  <script>
+  <script> 
  var x=<?php echo json_encode($requestJSON);?>;
+  
   console.log(x);
 
  console.log(x.code);

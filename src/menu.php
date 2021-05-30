@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Jose">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	  <base href="<?php echo 'http://'.$_SERVER['SERVER_NAME'];?>" />
+	  <base href="<?php echo 'https://'.$_SERVER['SERVER_NAME'];?>" />
 	<?php // header("Content-type: application/json; charset=utf-8"); ?>
 	<title>PDO</title>
 	<style>

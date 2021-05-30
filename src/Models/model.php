@@ -28,7 +28,7 @@ class Model{
 
 	public function page($obj){ 
 	if(!isset($obj['code'])){$code = 'es';} else {$code = $obj['code'];}
-	print_r($code);
+	print_r($code.'->code ');
 	 	$stmt = $this->mbd ->prepare("SELECT platos.id as idplato,platos.precio,platos.numero,
                                    platos_lng.id as plngid, platos_lng.code, platos_lng.nplato from platos
 		                           inner join platos_lng on platos.id = platos_lng.id where  code ='$code'");

@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$.ajax({
 			data: indexed_array,
 			type: "POST",
-			url: "http://bilbolive.es/index.php?controller=Index&task=page",
+			url: "https://bilbolive.es/index.php?controller=Index&task=page",
 			success: function(data){
 				$("#target").html(data);
 			}});
