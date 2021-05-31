@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	  <base href="<?php echo 'https://'.$_SERVER['SERVER_NAME'];?>" />
 	<?php // header("Content-type: application/json; charset=utf-8"); ?>
-	<title>PDO</title>
+	<title>LINUX BILBOLIVE.ES</title>
 	<style>
 	*{padding:0;margin:0;padding-left:1rem;}
 	#menutop{padding-bottom:1rem;}
